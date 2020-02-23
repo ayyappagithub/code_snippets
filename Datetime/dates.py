@@ -57,8 +57,8 @@ dt_mtn = mtn_tz.localize(dt_mtn)
 # print(dt_mtn)
 
 dt_east = dt_mtn.astimezone(pytz.timezone('US/Eastern'))
-# print(dt_east)
 
+# visual studio cod for github
 print(dt_mtn.strftime('%B %d, %Y'))
 
 dt_str = 'July 24, 2016'
